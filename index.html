@@ -732,10 +732,7 @@
                 document.getElementById('thematicAreaName').textContent = thematicAreaNames[thematicArea];
                 document.getElementById('thematicArea').value = thematicArea;
                 loadProjects(thematicArea);
-            } else {
-                // Redirect back to projects page if no valid thematic area
-                window.location.href = 'projects.html';
-            }
+            } 
             
             // Toggle sidebar collapse/expand
             menuToggle.addEventListener('click', function() {
